@@ -1,17 +1,29 @@
-Perfect 👍 I’m glad it’s working now.
-What you posted is almost textbook-correct for cPanel email. I’ll clearly explain:
+Advanced DNS allows you to manage your DNS records (A, AAAA, MX, CNAME, TXT, SRC, NS and CAA Records) for individual services, 
+DNS help you for  changing IP addresses, or modifying an email delivery address.
+
+when you creating email in future you have these cord ;
+Without them, email will not work or be delivered and to help email to not go to the spam 
 
 Which records are IMPORTANT
+🟢 SUMMARY TABLE (VERY IMPORTANT)
+Record	Required	Status
+MX	✅ MUST	✔ Correct
+mail A record	✅ MUST	✔ Correct
+SPF	✅ MUST	✔ Correct
+DKIM	✅ MUST	✔ Correct
+DMARC	✅ MUST	✔ Correct
+autoconfig / autodiscover	⚠️ Recommended	✔ Correct
+cpanel / whm	⚠️ System	✔ Correct
 
-Which are OPTIONAL / auto-created
 
-What you must always have when creating email in the future
+
+What you must always have when creating email or professional eamil  in the future
 
 Save this as your reference ✅
 
 ✅ REQUIRED (MUST-HAVE) RECORDS FOR CPANEL EMAIL
 
-These are the core records. Without them, email will not work.
+
 
 1️⃣ MX record (MOST IMPORTANT)
 Type: MX
